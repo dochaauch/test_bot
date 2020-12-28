@@ -1,6 +1,6 @@
 import requests
 import datetime
-import confid
+#import confid
 
 class BotHandler:
 
@@ -36,7 +36,8 @@ class BotHandler:
 #chat_id = get_chat_id(last_update(get_updates_json(url)))
 #send_mess(chat_id, 'Your message goes here')
 
-token = confid.token
+#token = confid.token
+token = '1430742914:AAHJT0NyMQ0ZwM6q-N09l_MEVjNQTXI3qpQ'
 
 greet_bot = BotHandler(token)
 greetings = ('Здравствуйте', 'привет', 'ку', 'здорово')
